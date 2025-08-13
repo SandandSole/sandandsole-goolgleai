@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Sand & Sole</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        html {
+            scroll-padding-top: 5rem; /* h-20 navbar height */
+        }
+
+        .art-deco-font {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+        
+        .sunburst {
+            background: linear-gradient(45deg, transparent 30%, #F4B942 30%, #F4B942 70%, transparent 70%),
+                        linear-gradient(-45deg, transparent 30%, #F4B942 30%, #F4B942 70%, transparent 70%);
+            background-size: 4px 4px;
+        }
+        
+        .modal-backdrop {
+            backdrop-filter: blur(8px);
+            background-color: rgba(51, 51, 51, 0.8);
+        }
+        
+        .gallery-scroll::-webkit-scrollbar {
+            height: 6px;
+        }
+        
+        .gallery-scroll::-webkit-scrollbar-track {
+            background: #EFD9C1;
+            border-radius: 3px;
+        }
+        
+        .gallery-scroll::-webkit-scrollbar-thumb {
+            background: #3BCFB1;
+            border-radius: 3px;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1"
+  }
+}
+</script>
+</head>
+<body class="bg-[#EFD9C1] font-[Inter]">
+    <div id="root"></div>
+</body>
+</html>
